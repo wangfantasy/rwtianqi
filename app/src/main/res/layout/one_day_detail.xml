@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/fragment_forcast">
+
+    <TextView
+        android:id="@+id/textDate"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="明天"
+        android:textSize="40sp" />
+
+
+    <ImageView
+        android:id="@+id/image_weather"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/textTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="温度:"
+        android:textSize="25sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textWeather" />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/textWind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="风力:"
+        android:textSize="25sp"
+        android:layout_below="@+id/textTemperature"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/textWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中雨转小雨"
+        android:textSize="25sp"
+        android:layout_below="@+id/textDate"
+        android:layout_toLeftOf="@+id/image_weather"
+        android:layout_toStartOf="@+id/image_weather" />
+
+</RelativeLayout>

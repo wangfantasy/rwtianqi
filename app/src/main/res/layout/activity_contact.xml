@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginRight="25.0dip"
+            android:layout_marginTop="15.0dip"
+            android:lineSpacingExtra="5.0dip"
+            android:text="作者QQ(点击复制)"
+            android:textColor="@color/common_text_color" />
+        <TextView
+            android:id="@+id/myqq"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginRight="25.0dip"
+            android:layout_marginTop="15.0dip"
+            android:lineSpacingExtra="5.0dip"
+            android:text="250463913"
+            android:textColor="@color/common_text_color" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginRight="25.0dip"
+            android:layout_marginTop="15.0dip"
+            android:lineSpacingExtra="5.0dip"
+            android:text="作者微博(点击访问)"
+            android:textColor="@color/common_text_color" />
+
+
+        <TextView
+            android:autoLink="web"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginRight="25.0dip"
+            android:layout_marginTop="15.0dip"
+            android:lineSpacingExtra="5.0dip"
+            android:text="http://weibo.com/hengyangfuyipeng"
+            android:textColor="@color/common_text_color" />
+    </LinearLayout>
+</ScrollView>

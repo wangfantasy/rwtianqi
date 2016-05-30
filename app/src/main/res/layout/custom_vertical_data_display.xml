@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@+id/image_subject" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <TextView android:textColor="@color/white" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/white" android:id="@+id/tv_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/view_rightLine" android:visibility="invisible" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" />
+    <View android:id="@id/view_leftLine" android:visibility="invisible" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentLeft="true" />
+    <View android:id="@id/view_topLine" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" />
+    <View android:id="@id/view_bottomLine" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

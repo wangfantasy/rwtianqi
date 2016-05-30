@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20.0dip"
+        android:layout_toRightOf="@id/imageView"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/notification_text_color"
+            android:layout_toEndOf="@+id/text_city_name"
+            android:text="衡阳"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3.0dip"
+            android:textSize="19.0sp"
+            android:id="@+id/text_city_name" />
+
+        <TextView
+            android:textColor="@color/notification_text_color"
+            android:id="@+id/text_weather_and_temperature"
+            android:text="小雨 15-19℃"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3.0dip"
+            android:textSize="15.0sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/notification_text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pm2.5"
+            android:layout_marginLeft="3.0dip"
+            android:layout_marginTop="2.0dip"
+            android:gravity="center_vertical"
+            android:id="@+id/text_pm25" />
+
+        <TextView
+            android:textColor="@color/notification_text_color"
+            android:id="@+id/text_release_time"
+            android:text="发布时间"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3.0dip"
+            android:layout_marginTop="2.0dip"
+            android:gravity="center_vertical"
+            android:textSize="13.0sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="mCheckBoxItem">
+        <attr name="check_box_item_title" format="reference|string" />
+        <attr name="check_box_on" format="reference|string" />
+        <attr name="check_box_off" format="reference|string" />
+    </declare-styleable>
+
+    <declare-styleable name="mSimpleSelectItem">
+        <attr name="simple_select_title" format="reference|string" />
+        <attr name="simple_select_desc" format="reference|string" />
+    </declare-styleable>
+</resources>

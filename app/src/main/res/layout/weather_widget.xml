@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather_widget_shape">
+
+    <TextView
+        android:textColor="@color/common_text_color"
+        android:id="@+id/textCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="城市" />
+
+    <TextView
+        android:textColor="@color/common_text_color"
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/image_weather"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:textColor="@color/common_text_color"
+        android:id="@+id/textWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="天气" />
+
+    <TextView
+        android:textColor="@color/common_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="温度"
+        android:id="@+id/textTemperature"
+        android:layout_below="@+id/textWeather"
+        android:layout_alignRight="@+id/textWeather"
+        android:layout_alignEnd="@+id/textWeather" />
+
+    <TextView
+        android:textColor="@color/common_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天气已过期，请及时刷新"
+        android:id="@+id/textWarning"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textTemperature"
+        android:layout_alignEnd="@+id/textTemperature" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--TODO previewImage可以修改小部件预览-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/weather_widget"
+    android:initialLayout="@layout/weather_widget_if_null"
+    android:minHeight="40.0dip"
+    android:minWidth="300.0dip"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen" />

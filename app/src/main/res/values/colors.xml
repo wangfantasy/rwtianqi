@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fontColor">#000</color>
+    <color name="white">#fff</color>
+    <color name="transparent">#0000</color>
+    <color name="home_text_color_dark">#222</color>
+    <color name="home_text_color">#fff</color>
+    <color name="home_divider_color">#fff</color>
+    <color name="common_text_color">#000</color>
+    <color name="about_text_color">#000</color>
+    <color name="line_button_color">#fff</color>
+    <color name="gray">#888</color>
+    <color name="settings_item_title">#000</color>
+    <color name="settings_item_desc">#111</color>
+    <color name="tab_unselected_color">#AAA</color>
+    <color name="notification_text_color">#000</color>
+</resources>
